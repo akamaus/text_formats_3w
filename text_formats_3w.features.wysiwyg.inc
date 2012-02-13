@@ -7,12 +7,12 @@
 /**
  * Implements hook_wysiwyg_default_profiles().
  */
-function full_html_tinymce_wysiwyg_default_profiles() {
+function text_formats_3w_wysiwyg_default_profiles() {
   $profiles = array();
 
   // Exported profile: full_html
-  $profiles['full_html'] = array(
-    'format' => 'full_html',
+  $profiles['editor'] = array(
+    'format' => 'editor',
     'editor' => 'tinymce',
     'settings' => array(
       'default' => 1,
